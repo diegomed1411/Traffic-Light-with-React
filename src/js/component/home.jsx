@@ -8,9 +8,6 @@ const Home = () => {
 
 	return (
 		<div className="cuerpo d-flex justify-content-center align-items-center ">
-			<button type="button" className="btn btn-primary mr-5">
-				Prender Todo
-			</button>
 			<div className="smf d-flex justify-content-center align-items-center flex-column">
 				<div className="d-flex justify-content-center align-items-center">
 					<div
@@ -44,9 +41,6 @@ const Home = () => {
 						}}></div>
 				</div>
 			</div>
-			<button type="button" className="btn btn-primary ml-5">
-				Apagar Todo
-			</button>
 		</div>
 	);
 };
